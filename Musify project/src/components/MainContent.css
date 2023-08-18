@@ -1,0 +1,259 @@
+.mainContent {
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 40px);
+}
+
+.whiteCard {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 700px;
+  height: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.musicBasics {
+  font-weight: bold;
+  color: black;
+}
+
+.rightContent {
+  display: flex;
+  align-items: center;
+}
+
+.smallCircle {
+  width: 20px; /* Reduced size */
+  height: 20px; /* Reduced size */
+  background-color: gray;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.musicNotes {
+  color: black;
+}
+
+.pianoImageContainer {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.pianoImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.imageIcons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 2;
+}
+
+.transparentBlock {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconCircle,
+.redIconCircle {
+  width: 20px; /* Reduced size */
+  height: 20px; /* Reduced size */
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redIconCircle {
+  background-color: red;
+}
+
+.whiteIcon {
+  color: white;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.leftFooterContent {
+  display: flex;
+  align-items: center;
+}
+
+.smallBlackCircle {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.totalUsers {
+  color: lightgray;
+}
+
+.rightFooterContent {
+  display: flex;
+  align-items: center;
+}
+
+.timeText {
+  color: black;
+  margin-right: 5px;
+}
+
+.clockIcon {
+  color: black;
+  margin-right: 5px;
+}
+
+.remainingText {
+  color: black;
+}
+
+.participantsSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-top: 10px;
+}
+
+.participantsText {
+  color: black;
+  font-weight: bold;
+}
+
+.navigationIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.navIcon {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.smallWhiteCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.whiteCardSmall {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: calc(700px / 5 - 10px);
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.microphoneCircle {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.microphoneIcon {
+  font-size: 12px; /* Adjusted icon size */
+  color: white;
+}
+
+/* Fourth Card (Keyboard Icon) */
+.keyboardCircle {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyboardIcon {
+  font-size: 12px; /* Adjusted icon size */
+  color: white;
+}
+
+/* Fifth Card (Load More) */
+.loadMoreBlock {
+  width: 80px;
+  height: 25px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadMoreText {
+  font-size: 12px; /* Adjusted text size */
+  color: white;
+  font-weight: bold;
+}

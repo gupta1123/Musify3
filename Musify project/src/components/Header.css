@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 5px 10px; /* Reduced padding for a more compact header */
+  color: white;
+  margin: -20px 0 0 0; /* Added negative margin to the top */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 20px; /* Reduced font size for the title */
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 3px 8px; /* Reduced padding for a more compact search bar */
+  width: 30%; /* Reduced width for the search bar */
+}
+
+.searchBar .searchIcon {
+  color: lightgray;
+  margin-right: 5px; /* Reduced margin for the search icon */
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  color: lightgray;
+  font-size: 14px; /* Reduced font size for the search input */
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: white;
+  margin-left: 10px; /* Reduced margin between the icons */
+  font-size: 20px; /* Reduced icon size */
+}
